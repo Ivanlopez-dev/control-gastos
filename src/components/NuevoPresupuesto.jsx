@@ -3,7 +3,7 @@ import Mensaje from './Mensaje'
 
 const NuevoPresupuesto = ({presupuesto, setPresupuesto, setIsValidPresupuesto}) => {
 
-    const [mensaje, setMensaje] = useState(' ')
+    const [mensaje, setMensaje] = useState('')
 
     const handlePresupuesto = (e) => {
         e.preventDefault();
